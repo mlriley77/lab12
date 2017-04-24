@@ -11,7 +11,7 @@ public class Human extends Player {
 
     @Override
     public void oppChoice(String opp) {
-        //System.out.println(opp);
+        System.out.println(opp);
     }
 
     @Override

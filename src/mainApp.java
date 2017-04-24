@@ -1,8 +1,15 @@
 import java.util.Scanner;
 
-/**
- * Created by MichaelRiley on 4/21/17.
- */
+/*
+
+Known Issues
+1.No mater what data is entered, it will come out as mike "sout on userPick in HUMAN"
+2. if statements to seperate opponents
+3. where to put the comparison results to determine winner
+
+
+*/
+
 public class mainApp {
 
     public static void main(String[] args) {
@@ -19,7 +26,7 @@ public class mainApp {
        // h1.name(userName);//use this to print result down below
 
 
-        System.out.println("Would you like to play against TheJets or TheSharks (j/s)? ");
+        System.out.println("Would you like to play against TheJets or TheSharks (jets/sharks)? ");
         String userChoice = scan.nextLine();
         Human h2 = new Human();
         h2.oppChoice(userChoice);//use this to print result below "maybe"
@@ -35,6 +42,8 @@ public class mainApp {
         //else if (userChoice == "theJets")
             TheJets h5 = new TheJets();
             h5.getRandom();
+
+
 
 
 

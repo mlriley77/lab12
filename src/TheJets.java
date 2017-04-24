@@ -17,7 +17,7 @@ public class TheJets extends Player {
 
     @Override
     public void oppChoice(String opp) {
-        if(opp.equalsIgnoreCase("TheJets"));
+        if(opp.equalsIgnoreCase("Jets"));
        //System.out.println("TheJets: ");
     }
 
@@ -40,6 +40,7 @@ public class TheJets extends Player {
         game [2] = "Scissors";
 
         int num = (int) (Math.random()*3);//this was luck - but needs more explanation
+
         System.out.println("The Jets: " + game[num]);
 
         return random;

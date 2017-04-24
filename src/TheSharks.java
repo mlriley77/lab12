@@ -20,6 +20,7 @@ public class TheSharks extends Player{
     @Override
     public void oppChoice(String opp) {
         if(opp.equalsIgnoreCase("TheSharks"));
+
     }
 
     @Override
@@ -32,7 +33,7 @@ public class TheSharks extends Player{
         String [] game = new String [1];
         game [0] = "Rock";
 
-        if(result.equalsIgnoreCase("TheSharks"));
+        if(result.equalsIgnoreCase("Sharks"));
         System.out.println("The Sharks: " + game[0]);
     }
 }
